@@ -28,7 +28,7 @@ function addGS(){
         },
         redirect: 'follow', // manual, *follow, error
         //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({ticker:"QQQ",flag:"0",snooze:"",shares:"0"}) // body data type must match "Content-Type" header
+        body: JSON.stringify({ticker:"GOOG",flag:"0",snooze:"",shares:"0"}) // body data type must match "Content-Type" header
     });
     console.log("log test");
 }
