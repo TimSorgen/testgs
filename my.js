@@ -22,6 +22,7 @@ function addGS(){
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
         credentials: 'include', // include, *same-origin, omit
         headers: {
+            'permissions-policy': interest-cohort=(),
             'Content-Type': 'application/json'
         // 'Content-Type': 'application/x-www-form-urlencoded',
         },
